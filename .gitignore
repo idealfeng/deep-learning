@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Experiment outputs / artifacts
+data/
+ddpm_results/
+diffusion_results/
+results_*/
+*_results/
+
+# Common model/weight files (often large)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Local caches
+.cache/
+
+# Local model folders in this repo (patterns)
+*qwen_chat*/
+*deepseek*/
