@@ -27,6 +27,9 @@ Thumbs.db
 # Logs
 *.log
 
+# Chat / run artifacts
+chat_history*.jsonl
+
 # Experiment outputs / artifacts
 data/
 ddpm_results/
